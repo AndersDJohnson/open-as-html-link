@@ -1,0 +1,23 @@
+{
+  "name": "open-as-html-link",
+  "version": "1.0.0",
+  "description": "Opens URI as HTML link in browser.",
+  "main": "index.js",
+  "bin": {
+    "open-as-html-link": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anders D. Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "args-or-stdin": "^1.0.0",
+    "error-exit": "^1.0.0",
+    "html-link": "^1",
+    "opn": "^4.0.2",
+    "spreader": "^1.0.0",
+    "tempfile": "^1.1.1"
+  }
+}
